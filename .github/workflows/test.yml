@@ -22,9 +22,10 @@ jobs:
         with:
           version: nightly
 
-      - name: Install dependencies
-        run: |
-          pnpm install
+      - name: Install pnpm and run install
+        uses: pnpm/action-setup@v3
+        with:
+          run_install: true
 
       - name: Run Forge build
         run: |
