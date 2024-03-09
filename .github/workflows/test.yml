@@ -25,6 +25,7 @@ jobs:
       - name: Install pnpm and run install
         uses: pnpm/action-setup@v3
         with:
+          version: latest
           run_install: true
 
       - name: Run Forge build
