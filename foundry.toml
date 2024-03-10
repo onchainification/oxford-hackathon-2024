@@ -5,6 +5,7 @@ libs = ["lib"]
 #via_ir = true
 fs_permissions = [{ access = "read", path = "out-optimized" }, { access = "read-write", path = "gas_calculations" }]
 allow_paths = ["*", "/"]
+ignored_warnings_from = ["node_modules", "lib"]
 
 [rpc_endpoints]
 mainnet = "https://rpc.ankr.com/eth"
