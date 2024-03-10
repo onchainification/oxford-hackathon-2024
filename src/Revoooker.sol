@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.23;
+pragma solidity ^0.8.24;
 
 import { ERC7579ExecutorBase } from "modulekit/Modules.sol";
 import { ExecutionLib } from "erc7579/lib/ExecutionLib.sol";
